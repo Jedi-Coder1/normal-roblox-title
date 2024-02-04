@@ -1,2 +1,2 @@
 # normal-roblox-title
-removes the "(1)" in the tab title
+removes the '(1)' etc from the tab title
