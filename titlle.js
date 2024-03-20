@@ -1,5 +1,6 @@
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+var originTitle = document.title
 var observer = new MutationObserver(function(mutations, observer) {
-  document.title = document.title.replace(/^\(\d+\)\s*/, '');
+  document.title = originTitle
 });
 observer.observe(document, {childList: true});
